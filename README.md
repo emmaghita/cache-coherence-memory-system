@@ -1,7 +1,7 @@
 # Cache Coherence Memory System (VHDL)
 
 This project implements a simplified **dual-core memory hierarchy** with private L1 caches and a centralized memory controller.  
-The system demonstrates how hardware maintains **cache coherence** in a multi-core environment using the **MSI (Modified–Shared–Invalid) protocol** and a **snoopy bus architecture**.
+The system demonstrates how hardware maintains **cache coherence** in a multi-core environment using the **MSI (Modified -Shared - Invalid) protocol** and a **snoopy bus architecture**.
 
 The design was implemented in **VHDL using Xilinx Vivado**.
 
@@ -34,9 +34,9 @@ This introduces the **cache coherence problem**, where different caches may hold
 
 The system maintains data consistency using the **MSI protocol**, which defines three states for every cache line:
 
-- **Modified (M)** – the cache contains the only updated copy; memory is stale
-- **Shared (S)** – the cache line is clean and may exist in multiple caches
-- **Invalid (I)** – the cache line is not valid
+- **Modified (M)** - the cache contains the only updated copy; memory is stale
+- **Shared (S)** - the cache line is clean and may exist in multiple caches
+- **Invalid (I)** - the cache line is not valid
 
 The protocol ensures:
 
