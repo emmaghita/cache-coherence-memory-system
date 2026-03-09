@@ -26,7 +26,7 @@ According to the project architecture diagram, the Memory Controller acts as the
 
 ### Dual-Core Cache System
 Each processor core has its own local cache.  
-This introduces the **cache coherence problem**, where different caches may hold different copies of the same memory location. :contentReference[oaicite:1]{index=1}
+This introduces the **cache coherence problem**, where different caches may hold different copies of the same memory location.
 
 ---
 
@@ -42,7 +42,7 @@ The protocol ensures:
 
 - write propagation between caches
 - correct ordering of writes
-- read-after-write consistency. :contentReference[oaicite:2]{index=2}
+- read-after-write consistency
 
 ---
 
@@ -53,7 +53,7 @@ This **bus snooping mechanism** allows caches to:
 
 - detect remote reads or writes
 - invalidate local copies when necessary
-- supply modified data to other caches if required. :contentReference[oaicite:3]{index=3}
+- supply modified data to other caches if required
 
 ---
 
@@ -68,7 +68,7 @@ Responsibilities include:
 - broadcasting snoop requests
 - coordinating cache-to-cache transfers
 
-To resolve simultaneous access requests, the controller implements a **Round-Robin arbitration policy** that alternates priority between cores to prevent starvation. :contentReference[oaicite:4]{index=4}
+To resolve simultaneous access requests, the controller implements a **Round-Robin arbitration policy** that alternates priority between cores to prevent starvation
 
 ---
 
@@ -79,7 +79,7 @@ The cache uses a **write-back policy**, meaning:
 - writes update the cache first
 - main memory is updated only when a modified cache line is evicted
 
-This reduces memory traffic and improves performance. :contentReference[oaicite:5]{index=5}
+This reduces memory traffic and improves performance
 
 ---
 
