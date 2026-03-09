@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Nov 25 14:45:31 2025
+# Process ID: 22072
+# Current directory: C:/Users/ghita/Desktop/facultate chestii/an 3/SCS - Structure of Computer Systems/MMU/MMU.runs/synth_1
+# Command line: vivado.exe -log tb_cache.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_cache.tcl
+# Log file: C:/Users/ghita/Desktop/facultate chestii/an 3/SCS - Structure of Computer Systems/MMU/MMU.runs/synth_1/tb_cache.vds
+# Journal file: C:/Users/ghita/Desktop/facultate chestii/an 3/SCS - Structure of Computer Systems/MMU/MMU.runs/synth_1\vivado.jou
+# Running On: Emma, OS: Windows, CPU Frequency: 3294 MHz, CPU Physical cores: 16, Host memory: 16383 MB
+#-----------------------------------------------------------
+source tb_cache.tcl -notrace
