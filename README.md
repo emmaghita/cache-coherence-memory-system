@@ -3,7 +3,7 @@
 This project implements a simplified **dual-core memory hierarchy** with private L1 caches and a centralized memory controller.  
 The system demonstrates how hardware maintains **cache coherence** in a multi-core environment using the **MSI (Modified–Shared–Invalid) protocol** and a **snoopy bus architecture**.
 
-The design was developed for the *Structure of Computer Systems* course and implemented in **VHDL using Xilinx Vivado**.
+The design was implemented in **VHDL using Xilinx Vivado**.
 
 ---
 
@@ -18,7 +18,7 @@ The system models a dual-core processor architecture consisting of:
 
 The components communicate over a **shared bus** where transactions are monitored by all caches using a **snooping mechanism**.
 
-According to the project architecture diagram (page 9 of the documentation), the Memory Controller acts as the central interconnect between the two caches and the main memory. :contentReference[oaicite:0]{index=0}
+According to the project architecture diagram, the Memory Controller acts as the central interconnect between the two caches and the main memory. 
 
 ---
 
